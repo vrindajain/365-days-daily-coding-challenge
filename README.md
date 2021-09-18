@@ -29,6 +29,7 @@ For example, if our input was [1, 2, 3, 4, 5], the expected output would be [120
 
 Follow-up: what if you can't use division?
 
+[Solution](Solutions/problem_002.py)
 ---
 
 #### Problem 3
@@ -37,6 +38,7 @@ This problem was asked by Google.
 
 Given the root to a binary tree, implement serialize(root), which serializes the tree into a string, and deserialize(s), which deserializes the string back into the tree.
 
+[Solution](Solutions/problem_003.py)
 
 ---
 
@@ -50,6 +52,7 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 
 You can modify the input array in-place.
 
+[Solution](Solutions/problem_004.py)
 
 ---
 
@@ -66,6 +69,7 @@ def cons(a, b):
 ```
 Implement car and cdr.
 
+[Solution](Solutions/problem_005.py)
 
 ---
 
@@ -77,6 +81,7 @@ An XOR linked list is a more memory efficient doubly linked list. Instead of eac
 
 If using a language that has no pointers (such as Python), you can assume you have access to get_pointer and dereference_pointer functions that converts between nodes and memory addresses.
 
+[Solution](Solutions/problem_006.py)
 
 ---
 
@@ -90,6 +95,7 @@ For example, the message '111' would give 3, since it could be decoded as 'aaa',
 
 You can assume that the messages are decodable. For example, '001' is not allowed.
 
+[Solution](Solutions/problem_007.py)
 
 ---
 
@@ -113,6 +119,7 @@ For example, the following tree has 5 unival subtrees:
  1   1
 ```
 
+[Solution](Solutions/problem_008.py)
 
 ---
 
@@ -124,6 +131,7 @@ Given a list of integers, write a function that returns the largest sum of non-a
 
 For example, [2, 4, 6, 8] should return 12, since we pick 4 and 8. [5, 1, 1, 5] should return 10, since we pick 5 and 5.
 
+[Solution](Solutions/problem_009.py)
 
 ---
 
@@ -133,6 +141,7 @@ This problem was asked by Apple.
 
 Implement a job scheduler which takes in a function f and an integer n, and calls f after n milliseconds.
 
+[Solution](Solutions/problem_010.py)
 
 ---
 
@@ -146,6 +155,7 @@ For example, given the query string de and the set of strings [dog, deer, deal],
 
 Hint: Try preprocessing the dictionary into a more efficient data structure to speed up queries.
 
+[Solution](Solutions/problem_011.py)
 
 ---
 
@@ -167,6 +177,7 @@ For example, if N is 4, then there are 5 unique ways:
 
 What if, instead of being able to climb 1 or 2 steps at a time, you could climb any number from a set of positive integers X? For example, if X = {1, 3, 5}, you could climb 1, 3, or 5 steps at a time.
 
+[Solution](Solutions/problem_012.py)
 
 ---
 
@@ -178,6 +189,7 @@ Given an integer k and a string s, find the length of the longest substring that
 
 For example, given s = "abcba" and k = 2, the longest substring with k distinct characters is "bcb".
 
+[Solution](Solutions/problem_013.py)
 
 ---
 
@@ -189,6 +201,7 @@ The area of a circle is defined as r^2. Estimate \pi to 3 decimal places using a
 
 Hint: The basic equation of a circle is x^2 + y^2 = r^2.
 
+[Solution](Solutions/problem_014.py)
 
 ---
 
@@ -198,6 +211,7 @@ This problem was asked by Facebook.
 
 Given a stream of elements too large to store in memory, pick a random element from the stream with uniform probability.
 
+[Solution](Solutions/problem_015.py)
 
 ---
 
@@ -211,6 +225,7 @@ record(order_id): adds the order_id to the log
 get_last(i): gets the ith last element from the log. i is guaranteed to be smaller than or equal to N.
 You should be as efficient with time and space as possible.
 
+[Solution](Solutions/problem_016.py)
 
 ---
 
@@ -249,6 +264,7 @@ We are interested in finding the longest (number of characters) absolute path to
 
 Given a string representing the file system in the above format, return the length of the longest absolute path to a file in the abstracted file system. If there is no file in the system, return 0.
 
+[Solution](Solutions/problem_017.py)
 
 ---
 
@@ -269,6 +285,7 @@ For example, given array = [10, 5, 2, 7, 8, 7] and k = 3, we should get: [10, 7,
 
 Do this in O(n) time and O(k) space. You can modify the input array in-place and you do not need to store the results. You can simply print them out as you compute them.
 
+[Solution](Solutions/problem_018.py)
 
 ---
 
@@ -280,6 +297,7 @@ A builder is looking to build a row of N houses that can be of K different color
 
 Given an N by K matrix where the nth row and kth column represents the cost to build the nth house with kth color, return the minimum cost which achieves this goal.
 
+[Solution](Solutions/problem_019.py)
 
 ---
 
@@ -295,6 +313,7 @@ In this example, assume nodes with the same value are the exact same node object
 
 Do this in O(M + N) time (where M and N are the lengths of the lists) and constant space.
 
+[Solution](Solutions/problem_020.py)
 
 ---
 
@@ -306,6 +325,7 @@ Given an array of time intervals (start, end) for classroom lectures (possibly o
 
 For example, given [(30, 75), (0, 50), (60, 150)], you should return 2.
 
+[Solution](Solutions/problem_021.py)
 
 ---
 
@@ -319,6 +339,7 @@ For example, given the set of words 'quick', 'brown', 'the', 'fox', and the stri
 
 Given the set of words 'bed', 'bath', 'bedbath', 'and', 'beyond', and the string "bedbathandbeyond", return either ['bed', 'bath', 'and', 'beyond] or ['bedbath', 'and', 'beyond'].
 
+[Solution](Solutions/problem_022.py)
 
 ---
 
